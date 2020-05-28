@@ -1,0 +1,7 @@
+mystring = "abcdefghijklmnopqrstuvwxyz"
+a = len(mystring)
+newstring = ""
+
+for i in range(a):
+    newstring = newstring + mystring[-1 - i]
+print (newstring)
